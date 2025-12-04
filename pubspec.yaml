@@ -1,0 +1,26 @@
+name: analisador_texto_auth
+description: "Aplicativo de Análise de Texto com Autenticação"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # REMOVA temporariamente estas linhas:
+  # sqflite: ^2.3.0
+  # path: ^1.9.0
+  
+  # Mantenha apenas:
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
